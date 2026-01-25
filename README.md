@@ -8,7 +8,6 @@ Bienvenido a tu guía de referencia rápida para dominar Windows 11 Pro. Este pr
 - [General y Sistema](./hotkeys/general.md) - Atajos esenciales para el día a día.
 - [Escritorio y Ventanas](./hotkeys/navigation.md) - Domina tu espacio de trabajo.
 - [Explorador de Archivos](./hotkeys/explorer.md) - Navega tus archivos como un pro.
-- [Visual Studio 2022](./hotkeys/vs2022.md) - Productividad máxima en desarrollo.
 
 ### 🏃 [Win + R (Comandos Ejecutar)](./win-plus-r/)
 - [Apps Esenciales](./win-plus-r/essentials.md) - Acceso rápido a calc, notepad, cmd, etc.
@@ -25,6 +24,9 @@ Bienvenido a tu guía de referencia rápida para dominar Windows 11 Pro. Este pr
 - [WSL (Linux en Windows)](./power-user/wsl.md) - Flujo de trabajo y comandos básicos.
 - [God Mode](./power-user/god-mode.md) - Activa el panel de control maestro.
 - [Trucos del Registro](./power-user/registry-hacks.md) - Ajustes seguros de UI y rendimiento.
+
+### 🛠️ [Desarrollo y Herramientas](./development/)
+- [Visual Studio 2022](./development/vs2022.md) - Atajos, extensiones y trucos para VS 2022.
 
 ---
 
