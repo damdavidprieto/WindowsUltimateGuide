@@ -1,22 +1,22 @@
-# 📂 File Explorer Hotkeys
+# 📂 Atajos del Explorador de Archivos
 
-Efficiency tips for navigating your folders.
+Trucos para moverte por tus carpetas con agilidad.
 
-| Hotkey | Action |
+| Atajo | Acción |
 | :--- | :--- |
-| `Alt` + `D` | Select the address bar. |
-| `Ctrl` + `E` / `Ctrl` + `F` | Select the search box. |
-| `Ctrl` + `N` | Open a new window. |
-| `Ctrl` + `W` | Close the current window. |
-| `Ctrl` + `T` | Open a new tab (Win 11). |
-| `Ctrl` + `Shift` + `N` | Create a new folder. |
-| `Alt` + `Enter` | Open Properties for the selected item. |
-| `Alt` + `P` | Show/Hide the Preview pane. |
-| `Alt` + `Up Arrow` | Go up one level in the folder hierarchy. |
-| `Alt` + `Left/Right Arrow` | Go back/forward in history. |
-| `F2` | Rename the selected item. |
-| `F5` | Refresh the current view. |
-| `Shift` + `Delete` | Delete permanently (skip Recycle Bin). |
+| `Alt` + `D` | Selecciona la barra de direcciones. |
+| `Ctrl` + `E` / `Ctrl` + `F` | Selecciona el cuadro de búsqueda. |
+| `Ctrl` + `N` | Abre una nueva ventana. |
+| `Ctrl` + `W` | Cierra la ventana actual. |
+| `Ctrl` + `T` | Abre una nueva pestaña (W11). |
+| `Ctrl` + `Shift` + `N` | Crea una nueva carpeta. |
+| `Alt` + `Enter` | Abre las Propiedades del elemento seleccionado. |
+| `Alt` + `P` | Muestra/Oculta el panel de vista previa. |
+| `Alt` + `Flecha Arriba` | Sube un nivel en la jerarquía de carpetas. |
+| `Alt` + `Flecha Izq/Der` | Ve hacia atrás o hacia adelante. |
+| `F2` | Renombra el archivo seleccionado. |
+| `F5` | Actualiza la vista actual. |
+| `Shift` + `Delete` | Borra permanentemente (sin pasar por la Papelera). |
 
 ---
-[⬅️ Back to Home](../README.md)
+[⬅️ Volver al Inicio](../README.md)

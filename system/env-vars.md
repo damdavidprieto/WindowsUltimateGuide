@@ -1,25 +1,25 @@
-# 🌐 Environment Variables
+# 🌐 Variables de Entorno
 
-Variables that store information about the system environment, useful for scripts and navigating via Run/Explorer.
+Variables que almacenan información sobre el entorno del sistema, útiles para scripts y navegación rápida.
 
-## Common Variables
-You can use these in File Explorer or the `Win` + `R` dialog by wrapping them in `%`.
+## Variables Comunes
+Puedes usarlas en el Explorador de Archivos o en `Win` + `R` envolviéndolas en `%`.
 
-| Variable | Points to... | Example Value |
+| Variable | Apunta a... | Valor de ejemplo |
 | :--- | :--- | :--- |
-| `%USERPROFILE%` | Current user's root folder | `C:\Users\Name` |
-| `%APPDATA%` | Roaming AppData folder | `...\AppData\Roaming` |
-| `%LOCALAPPDATA%` | Local AppData folder | `...\AppData\Local` |
-| `%PROGRAMFILES%` | 64-bit Programs folder | `C:\Program Files` |
-| `%PROGRAMFILES(X86)%` | 32-bit Programs folder | `C:\Program Files (x86)` |
-| `%WINDIR%` | Windows OS directory | `C:\Windows` |
-| `%TEMP%` | Temporary files folder | `...\AppData\Local\Temp` |
-| `%PUBLIC%` | Public user profile | `C:\Users\Public` |
-| `%COMPUTERNAME%` | The name of your PC | `DESKTOP-ABC123` |
-| `%USERNAME%` | Your current username | `JohnDoe` |
+| `%USERPROFILE%` | Carpeta raíz del usuario actual | `C:\Users\Nombre` |
+| `%APPDATA%` | Carpeta de datos de apps (Roaming) | `...\AppData\Roaming` |
+| `%LOCALAPPDATA%` | Carpeta de datos de apps (Local) | `...\AppData\Local` |
+| `%PROGRAMFILES%` | Carpeta de Programas (64 bits) | `C:\Program Files` |
+| `%PROGRAMFILES(X86)%` | Carpeta de Programas (32 bits) | `C:\Program Files (x86)` |
+| `%WINDIR%` | Directorio de Windows | `C:\Windows` |
+| `%TEMP%` | Carpeta de archivos temporales | `...\AppData\Local\Temp` |
+| `%PUBLIC%` | Perfil de usuario público | `C:\Users\Public` |
+| `%COMPUTERNAME%` | El nombre de tu PC | `DESKTOP-ABC123` |
+| `%USERNAME%` | Tu nombre de usuario actual | `JuanDoe` |
 
-## How to Edit Them
-Type `sysdm.cpl` in `Win` + `R`, go to **Advanced** tab, and click **Environment Variables**.
+## Cómo Editarlas
+Escribe `sysdm.cpl` en `Win` + `R`, ve a la pestaña **Opciones avanzadas** y haz clic en **Variables de entorno**.
 
 ---
-[⬅️ Back to Home](../README.md)
+[⬅️ Volver al Inicio](../README.md)

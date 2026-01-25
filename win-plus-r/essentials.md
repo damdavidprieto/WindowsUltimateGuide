@@ -1,25 +1,25 @@
-# 🏃 Essential Run Commands (Win + R)
+# 🏃 Comandos Ejecutar Esenciales (Win + R)
 
-Press `Win` + `R` and type these to launch apps instantly.
+Presiona `Win` + `R` y escribe estos comandos para lanzar apps al instante.
 
-| Command | Action |
+| Comando | Acción |
 | :--- | :--- |
-| `calc` | Calculator |
-| `notepad` | Notepad |
+| `calc` | Calculadora |
+| `notepad` | Bloc de notas |
 | `mspaint` | MS Paint |
-| `cmd` | Command Prompt |
-| `wt` | Windows Terminal (if installed) |
+| `cmd` | Símbolo del sistema |
+| `wt` | Windows Terminal (si está instalado) |
 | `powershell` | PowerShell |
-| `taskmgr` | Task Manager |
-| `regedit` | Registry Editor |
-| `control` | Classic Control Panel |
-| `.` | Opens current user's profile folder |
-| `..` | Opens the Users folder |
-| `\` | Opens the C: drive root |
-| `msinfo32` | System Information |
-| `dxdiag` | DirectX Diagnostic Tool |
-| `mstsc` | Remote Desktop Connection |
-| `winver` | Check Windows Version |
+| `taskmgr` | Administrador de tareas |
+| `regedit` | Editor del Registro |
+| `control` | Panel de Control clásico |
+| `.` | Abre la carpeta de perfil del usuario actual |
+| `..` | Abre la carpeta de Usuarios |
+| `\` | Abre la raíz del disco C: |
+| `msinfo32` | Información del Sistema |
+| `dxdiag` | Herramienta de diagnóstico de DirectX |
+| `mstsc` | Conexión a Escritorio remoto |
+| `winver` | Comprobar versión de Windows |
 
 ---
-[⬅️ Back to Home](../README.md)
+[⬅️ Volver al Inicio](../README.md)

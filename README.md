@@ -1,28 +1,35 @@
-# 💻 Windows 11 Pro: The Ultimate Guide
+# 💻 Windows 11 Pro: La Guía Definitiva
 
-Welcome to your quick-reference guide for mastering Windows 11 Pro. This project is designed to be easily accessible from your mobile device via GitHub, providing instant access to hotkeys, commands, and system tools.
+Bienvenido a tu guía de referencia rápida para dominar Windows 11 Pro. Este proyecto está diseñado para ser consultado fácilmente desde tu móvil a través de GitHub, proporcionando acceso instantáneo a atajos, comandos y herramientas del sistema.
 
-## 🗂️ Table of Contents
+## 🗂️ Índice de Contenidos
 
-### ⌨️ [Hotkeys (Shortcuts)](./hotkeys/)
-- [General & System](./hotkeys/general.md) - Essential shortcuts for daily use.
-- [Desktop & Window Management](./hotkeys/navigation.md) - Mastering your workspace.
-- [File Explorer](./hotkeys/explorer.md) - Navigate your files like a pro.
+### ⌨️ [Atajos de Teclado (Hotkeys)](./hotkeys/)
+- [General y Sistema](./hotkeys/general.md) - Atajos esenciales para el día a día.
+- [Escritorio y Ventanas](./hotkeys/navigation.md) - Domina tu espacio de trabajo.
+- [Explorador de Archivos](./hotkeys/explorer.md) - Navega tus archivos como un pro.
+- [Visual Studio 2022](./hotkeys/vs2022.md) - Productividad máxima en desarrollo.
 
-### 🏃 [Win + R (Run Commands)](./win-plus-r/)
-- [Essential Apps](./win-plus-r/essentials.md) - Fast access to calc, notepad, cmd, etc.
-- [Control Panel (.cpl)](./win-plus-r/control-panel.md) - Skip the Settings menu.
-- [System Admin (.msc)](./win-plus-r/system-admin.md) - Advanced management consoles.
+### 🏃 [Win + R (Comandos Ejecutar)](./win-plus-r/)
+- [Apps Esenciales](./win-plus-r/essentials.md) - Acceso rápido a calc, notepad, cmd, etc.
+- [Panel de Control (.cpl)](./win-plus-r/control-panel.md) - Salta directamente a los ajustes clásicos.
+- [Administración (.msc)](./win-plus-r/system-admin.md) - Consolas avanzadas de gestión.
 
-### ⚙️ [System & Advanced](./system/)
-- [Environment Variables](./system/env-vars.md) - Path, UserProfile, and more.
-- [Built-in Tools](./system/built-in-tools.md) - Powerful tools you didn't know you had.
-- [CLI Tips](./system/cli-tips.md) - Quick PowerShell and CMD tricks.
+### ⚙️ [Sistema y Avanzado](./system/)
+- [Variables de Entorno](./system/env-vars.md) - Path, UserProfile y más.
+- [Herramientas Nativas](./system/built-in-tools.md) - Utilidades potentes y ocultas.
+- [Trucos de Terminal](./system/cli-tips.md) - Comandos rápidos para PowerShell y CMD.
+
+### 🚀 [Power User (Nivel Pro)](./power-user/)
+- [PowerToys](./power-user/powertoys.md) - FancyZones, PowerRename y Color Picker.
+- [WSL (Linux en Windows)](./power-user/wsl.md) - Flujo de trabajo y comandos básicos.
+- [God Mode](./power-user/god-mode.md) - Activa el panel de control maestro.
+- [Trucos del Registro](./power-user/registry-hacks.md) - Ajustes seguros de UI y rendimiento.
 
 ---
 
-## 📱 Mobile Tip
-Since this guide is in Markdown, you can use the **GitHub Mobile App** or your mobile browser to quickly search for any command or hotkey while you're away from your keyboard or multi-tasking.
+## 📱 Tip para Móviles
+Al ser Markdown, puedes usar la **app de GitHub** o el navegador de tu móvil para buscar rápidamente cualquier comando mientras estás lejos del teclado.
 
-## 🛠️ Contribution
-Feel free to add your own personal favorites to these lists!
+## 🛠️ Contribuciones
+¡Siéntete libre de añadir tus trucos favoritos enviando un pull request!

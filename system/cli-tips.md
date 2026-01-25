@@ -1,22 +1,22 @@
-# 🐚 CLI Tips (CMD & PowerShell)
+# 🐚 Trucos de Terminal (CMD y PowerShell)
 
-Quick tricks for the terminal.
+Tips rápidos para la consola de comandos.
 
-## Essential Commands
-| Command | Action |
+## Comandos Esenciales
+| Comando | Acción |
 | :--- | :--- |
-| `ipconfig /all` | Detailed network info. |
-| `ping [address] -t` | Continuous ping. |
-| `sfc /scannow` | Scan and repair system files (Admin). |
-| `chkdsk /f` | Check disk for errors on next reboot (Admin). |
-| `winget install [app]` | Use the Windows Package Manager to install software. |
-| `systeminfo` | Get a massive dump of hardware/OS details. |
+| `ipconfig /all` | Información detallada de red. |
+| `ping [dirección] -t` | Ping continuo. |
+| `sfc /scannow` | Escanea y repara archivos del sistema (Admin). |
+| `chkdsk /f` | Revisa errores en el disco al reiniciar (Admin). |
+| `winget install [app]` | Usa el gestor de paquetes de Windows para instalar software. |
+| `systeminfo` | Obtiene un volcado masivo de detalles de hardware y SO. |
 
-## Terminal Shortcuts
-- `Ctrl` + `C`: Interrupt current command.
-- `Tab`: Autocomplete file/folder names.
-- `F7`: View command history (CMD).
-- `Up/Down Arrow`: Cycle through previous commands.
+## Atajos de Terminal
+- `Ctrl` + `C`: Interrumpir comando actual.
+- `Tab`: Autocompletar nombres de archivos/carpetas.
+- `F7`: Ver historial de comandos (CMD).
+- `Flecha Arriba/Abajo`: Ciclar entre comandos anteriores.
 
 ---
-[⬅️ Back to Home](../README.md)
+[⬅️ Volver al Inicio](../README.md)

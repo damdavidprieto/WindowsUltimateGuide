@@ -1,27 +1,27 @@
-# 🧰 Powerful Built-in Tools
+# 🧰 Herramientas Nativas Potentes
 
-Windows contains many powerful utilities that are often hidden away.
+Windows incluye utilidades muy potentes que suelen estar algo escondidas.
 
-## 1. Resource Monitor (`resmon`)
-Much more detailed than Task Manager. Shows real-time Disk, Network, and Memory usage per process.
+## 1. Monitor de Recursos (`resmon`)
+Mucho más detallado que el Administrador de Tareas. Muestra uso en tiempo real de Disco, Red y Memoria por proceso.
 
-## 2. Windows Memory Diagnostic (`mdsched`)
-Schedule a reboot to check your RAM for errors.
+## 2. Diagnóstico de Memoria (`mdsched`)
+Programa un reinicio para comprobar si tu RAM tiene errores físicos.
 
-## 3. Reliability Monitor (`perfmon /rel`)
-See a timeline of every crash, update, and error that has happened on your PC.
+## 3. Monitor de Confiabilidad (`perfmon /rel`)
+Muestra una línea de tiempo de cada fallo, actualización y error que ha ocurrido en tu PC.
 
-## 4. Power Report (`powercfg /energy`)
-Run this in Admin CMD to get a detailed HTML report on your battery health and energy efficiency.
+## 4. Informe de Energía (`powercfg /energy`)
+Ejecuta esto en CMD como Admin para obtener un informe HTML detallado sobre la salud de tu batería.
 
-## 5. Storage Sense
-Go to `Settings > System > Storage`. Automatically cleans up temp files and empties your bin.
+## 5. Sensor de Almacenamiento
+Ve a `Configuración > Sistema > Almacenamiento`. Limpia automáticamente archivos temporales y la papelera.
 
-## 6. Steps Recorder (`psr`)
-Records your screen and clicks into a document with descriptions—perfect for tutorial creation or reporting bugs.
+## 6. Grabación de acciones de usuario (`psr`)
+Graba tu pantalla y clics en un documento con descripciones—perfecto para tutoriales o reportar errores.
 
-## 7. Windows Sandbox
-(Win 11 Pro only) A disposable virtual environment to test suspicious files or apps without infecting your system. Enable it in "Turn Windows features on or off".
+## 7. Espacio aislado de Windows (Sandbox)
+(Solo Win 11 Pro) Un entorno virtual desechable para probar archivos sospechosos sin infectar tu sistema. Actívalo en "Activar o desactivar las características de Windows".
 
 ---
-[⬅️ Back to Home](../README.md)
+[⬅️ Volver al Inicio](../README.md)

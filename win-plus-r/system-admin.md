@@ -1,21 +1,21 @@
-# 🛠️ System Admin Consoles (.msc)
+# 🛠️ Consolas de Administración (.msc)
 
-Advanced management tools for Windows 11 Pro.
+Herramientas avanzadas de gestión para Windows 11 Pro.
 
-| Command | Action | Description |
+| Comando | Acción | Descripción |
 | :--- | :--- | :--- |
-| `diskmgmt.msc` | **Disk Management** | Initialize disks, create partitions, change drive letters. |
-| `devmgmt.msc` | **Device Manager** | Manage hardware drivers and system devices. |
-| `compmgmt.msc` | **Computer Management** | All-in-one console including Disk Mgmt, Services, and Task Scheduler. |
-| `services.msc` | **Services** | Start, stop, and configure Windows background services. |
-| `eventvwr.msc` | **Event Viewer** | Look at system logs and errors. |
-| `gpedit.msc` | **Group Policy Editor** | (Pro only) Configure advanced system-wide policies. |
-| `secpol.msc` | **Local Security Policy** | Advanced security settings. |
-| `lusrmgr.msc` | **Local Users and Groups** | Manage user accounts and groups (Classic). |
-| `perfmon.msc` | **Performance Monitor** | Detailed system performance tracking. |
-| `taskschd.msc` | **Task Scheduler** | Automate tasks and scripts. |
-| `fsmgmt.msc` | **Shared Folders** | View and manage shared folders and sessions. |
-| `certlm.msc` | **Certificates (Local)** | Manage local computer certificates. |
+| `diskmgmt.msc` | **Admin. de discos** | Inicializa discos, crea particiones, cambia letras de unidad. |
+| `devmgmt.msc` | **Admin. de dispositivos** | Gestiona drivers y dispositivos del sistema. |
+| `compmgmt.msc` | **Admin. de equipos** | Consola "todo en uno" (Discos, Servicios, Programador). |
+| `services.msc` | **Servicios** | Inicia, detiene y configura servicios en segundo plano. |
+| `eventvwr.msc` | **Visor de eventos** | Consulta registros y errores del sistema. |
+| `gpedit.msc` | **Editor de directivas de grupo** | (Solo Pro) Configura políticas avanzadas del sistema. |
+| `secpol.msc` | **Directiva de seguridad local** | Ajustes de seguridad avanzados. |
+| `lusrmgr.msc` | **Usuarios y grupos locales** | Gestiona cuentas y grupos (Clásico). |
+| `perfmon.msc` | **Monitor de rendimiento** | Seguimiento detallado del rendimiento. |
+| `taskschd.msc` | **Programador de tareas** | Automatiza tareas y scripts. |
+| `fsmgmt.msc` | **Carpetas compartidas** | Gestiona recursos compartidos y sesiones. |
+| `certlm.msc` | **Certificados (Local)** | Gestiona certificados del equipo local. |
 
 ---
-[⬅️ Back to Home](../README.md)
+[⬅️ Volver al Inicio](../README.md)

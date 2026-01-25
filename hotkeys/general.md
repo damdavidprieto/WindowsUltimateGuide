@@ -1,25 +1,25 @@
-# ⌨️ General & System Hotkeys
+# ⌨️ Atajos Generales y del Sistema
 
-These are the most important shortcuts for any Windows 11 Pro user.
+Estos son los atajos fundamentales para cualquier usuario de Windows 11 Pro.
 
-| Hotkey | Action | Description |
+| Atajo | Acción | Descripción |
 | :--- | :--- | :--- |
-| `Win` + `X` | **Quick Link Menu** | Opens the context menu of the Start button (Terminal, Disk Mgmt, etc). |
-| `Win` + `I` | **Settings** | Jump straight to the Windows Settings app. |
-| `Win` + `E` | **File Explorer** | Open a new File Explorer window. |
-| `Win` + `L` | **Lock** | Quickly lock your PC or switch accounts. |
-| `Win` + `D` | **Show Desktop** | Minimizes all windows to show the desktop. Press again to restore. |
-| `Win` + `A` | **Quick Settings** | Open the Quick Settings panel (Wi-Fi, Bluetooth, Volume). |
-| `Win` + `N` | **Notification Center** | Open the Notification Center and Calendar. |
-| `Win` + `V` | **Clipboard History** | Access your clipboard history (must be enabled). |
-| `Win` + `.` | **Emoji Panel** | Open emoji, GIF, and symbol picker. |
-| `Win` + `H` | **Voice Typing** | Start voice-to-text dictation. |
-| `Win` + `S` | **Search** | Open Windows Search. |
-| `Win` + `Shift` + `S` | **Snipping Tool** | Take a screenshot of a region, window, or full screen. |
-| `Win` + `K` | **Cast** | Open the Cast quick action to connect to wireless displays. |
-| `Win` + `W` | **Widgets** | Open the Widgets board. |
-| `Win` + `P` | **Project** | Choose a presentation display mode (Duplicate, Extend, etc.). |
-| `Ctrl` + `Shift` + `Esc` | **Task Manager** | Direct jump to Task Manager without Ctrl+Alt+Del. |
+| `Win` + `X` | **Menú de Vínculo Rápido** | Abre el menú contextual del botón de inicio (Terminal, Admin. de discos, etc). |
+| `Win` + `I` | **Configuración** | Salta directamente a la app de Configuración de Windows. |
+| `Win` + `E` | **Explorador de Archivos** | Abre una nueva ventana del Explorador. |
+| `Win` + `L` | **Bloquear** | Bloquea tu PC rápidamente o cambia de cuenta. |
+| `Win` + `D` | **Mostrar Escritorio** | Minimiza todo para ver el escritorio. Pulsa de nuevo para restaurar. |
+| `Win` + `A` | **Ajustes Rápidos** | Abre el panel de WiFi, Bluetooth y Volumen. |
+| `Win` + `N` | **Centro de Notificaciones** | Abre el calendario y las notificaciones. |
+| `Win` + `V` | **Historial del Portapapeles** | Accede a tus textos copiados (debe estar activado). |
+| `Win` + `.` | **Panel de Emojis** | Abre el selector de emojis, GIFs y símbolos. |
+| `Win` + `H` | **Escritura por Voz** | Inicia el dictado de voz a texto. |
+| `Win` + `S` | **Búsqueda** | Abre la búsqueda de Windows. |
+| `Win` + `Shift` + `S` | **Herramienta de Recortes** | Haz una captura de pantalla de una zona o ventana. |
+| `Win` + `K` | **Transmitir** | Conecta con pantallas inalámbricas. |
+| `Win` + `W` | **Widgets** | Abre el tablero de widgets de Windows 11. |
+| `Win` + `P` | **Proyectar** | Cambia el modo de pantalla (Duplicar, Extender, etc). |
+| `Ctrl` + `Shift` + `Esc` | **Admin. de Tareas** | Salto directo sin pasar por Ctrl+Alt+Del. |
 
 ---
-[⬅️ Back to Home](../README.md)
+[⬅️ Volver al Inicio](../README.md)

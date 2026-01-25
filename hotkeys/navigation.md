@@ -1,28 +1,28 @@
-# 🪟 Desktop & Window Management
+# 🪟 Gestión de Ventanas y Escritorio
 
-Mastering how you arrange and move through your windows.
+Domina el movimiento y la organización de tus apps.
 
-## Window Snapping
-| Hotkey | Action |
+## Snap (Ajuste de Ventanas)
+| Atajo | Acción |
 | :--- | :--- |
-| `Win` + `Left/Right Arrow` | Snap current window to the left/right half of the screen. |
-| `Win` + `Up Arrow` | Maximize current window. |
-| `Win` + `Down Arrow` | Restore/Minimize current window. |
-| `Win` + `Z` | Open the Snap Layouts menu (Win 11 exclusive). |
+| `Win` + `Flecha Izq/Der` | Ajusta la ventana actual a la mitad izquierda/derecha. |
+| `Win` + `Flecha Arriba` | Maximiza la ventana actual. |
+| `Win` + `Flecha Abajo` | Restaura o minimiza la ventana. |
+| `Win` + `Z` | Abre el menú de diseños de Snap (exclusivo de W11). |
 
-## Task Switching & Virtual Desktops
-| Hotkey | Action |
+## Cambio de Tareas y Escritorios Virtuales
+| Atajo | Acción |
 | :--- | :--- |
-| `Alt` + `Tab` | Switch between open apps (classic). |
-| `Win` + `Tab` | **Task View** - See all windows and manage Virtual Desktops. |
-| `Win` + `Ctrl` + `D` | Create a new virtual desktop. |
-| `Win` + `Ctrl` + `Left/Right` | Switch between virtual desktops. |
-| `Win` + `Ctrl` + `F4` | Close the current virtual desktop. |
+| `Alt` + `Tab` | Cambia entre apps abiertas (clásico). |
+| `Win` + `Tab` | **Vista de Tareas** - Mira todas las ventanas y crea Escritorios Virtuales. |
+| `Win` + `Ctrl` + `D` | Crea un nuevo escritorio virtual. |
+| `Win` + `Ctrl` + `Izq/Der` | Cambia entre escritorios virtuales. |
+| `Win` + `Ctrl` + `F4` | Cierra el escritorio virtual actual. |
 
-## Multiple Monitors
-| Hotkey | Action |
+## Múltiples Monitores
+| Atajo | Acción |
 | :--- | :--- |
-| `Win` + `Shift` + `Left/Right` | Move the active window to another monitor. |
+| `Win` + `Shift` + `Izq/Der` | Mueve la ventana activa al otro monitor. |
 
 ---
-[⬅️ Back to Home](../README.md)
+[⬅️ Volver al Inicio](../README.md)

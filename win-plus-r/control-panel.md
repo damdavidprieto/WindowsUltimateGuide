@@ -1,20 +1,20 @@
-# ⚙️ Control Panel Shortcuts (.cpl)
+# ⚙️ Accesos Directos al Panel de Control (.cpl)
 
-Launch specific settings pages directly from `Win` + `R`.
+Lanza páginas específicas de configuración directamente desde `Win` + `R`.
 
-| Command | opens... |
+| Comando | Abre... |
 | :--- | :--- |
-| `appwiz.cpl` | Programs and Features (Uninstall apps) |
-| `sysdm.cpl` | System Properties (Env vars, PC Name) |
-| `ncpa.cpl` | Network Connections (Adapters) |
-| `main.cpl` | Mouse Properties |
-| `mmsys.cpl` | Sound Settings (Classic) |
-| `desk.cpl` | Display Settings |
-| `powercfg.cpl` | Power Options |
-| `firewall.cpl` | Windows Defender Firewall |
-| `inetcpl.cpl` | Internet Properties |
-| `timedate.cpl` | Date and Time |
-| `intl.cpl` | Region Settings |
+| `appwiz.cpl` | Programas y características (Desinstalar apps) |
+| `sysdm.cpl` | Propiedades del sistema (Variables de entorno, nombre PC) |
+| `ncpa.cpl` | Conexiones de red (Adaptadores) |
+| `main.cpl` | Propiedades del ratón |
+| `mmsys.cpl` | Configuración de sonido (Clásica) |
+| `desk.cpl` | Configuración de pantalla |
+| `powercfg.cpl` | Opciones de energía |
+| `firewall.cpl` | Firewall de Windows Defender |
+| `inetcpl.cpl` | Propiedades de Internet |
+| `timedate.cpl` | Fecha y hora |
+| `intl.cpl` | Configuración de región |
 
 ---
-[⬅️ Back to Home](../README.md)
+[⬅️ Volver al Inicio](../README.md)
