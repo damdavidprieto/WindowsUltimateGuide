@@ -4,6 +4,9 @@ Tu referencia rápida para dominar Windows 11 **desde el teclado**. Está pensad
 
 > **Revisado:** noviembre de 2026 · Windows 11 versión 24H2 o posterior · PowerToys y Visual Studio en sus versiones actuales.
 
+### 🌐 [Abrir la web interactiva](https://damdavidprieto.github.io/WindowsUltimateGuide/)
+Buscador de atajos ("¿qué quieres hacer?"), teclas dibujadas, favoritos, modo práctica y modo oscuro. Funciona en el móvil.
+
 ## ⚡ Atajos Esenciales
 
 | Atajo | Acción |
@@ -49,6 +52,13 @@ Tu referencia rápida para dominar Windows 11 **desde el teclado**. Está pensad
 
 ## 📱 Tip para Móviles
 En la app de GitHub o en el navegador del móvil, abre una página y usa **Buscar en la página** para encontrar un atajo al instante.
+
+## 🌐 La web (GitHub Pages)
+La web está en la carpeta [`site/`](./site/) y lee directamente estos archivos Markdown, así que **solo hay que editar los `.md`**: al subir los cambios a `main` se publica sola con GitHub Actions.
+
+- **Ver en local:** `bash scripts/build-site.sh && python3 -m http.server -d _site 8000` y abre `http://localhost:8000`.
+- **Añadir una página:** crea el `.md` y añádelo a la lista `PAGES` de [`site/app.js`](./site/app.js).
+- Las tablas cuya primera columna se llama **Atajo** se muestran como teclas; si se llama **Comando** o **Variable**, como código con botón de copiar.
 
 ## 🛠️ Contribuciones
 ¡Añade tus trucos favoritos con un pull request! Si propones un atajo, indica la versión de Windows o de la app en la que lo has comprobado.
