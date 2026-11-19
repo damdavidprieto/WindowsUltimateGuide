@@ -1,66 +1,64 @@
-# ⌨️ Atajos de Teclado de Windows 11
+# ⌨️ Atajos de Teclado
 
-> **Revisado:** noviembre de 2026 · **Windows 11** versión 24H2 o posterior · **PowerToys** versión actual.
-> Fuente principal: [documentación oficial de Microsoft](https://support.microsoft.com/es-es/windows/m%C3%A9todos-abreviados-de-teclado-de-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec).
+> **Revisado:** noviembre de 2026 · **Windows 11** (24H2 o posterior) · **Visual Studio 2026** · **Visual Studio Code**.
+> Fuentes: documentación oficial de [Windows](https://support.microsoft.com/es-es/windows/m%C3%A9todos-abreviados-de-teclado-de-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec), [Visual Studio](https://learn.microsoft.com/es-es/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio) y [VS Code](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf).
+
+## 🎓 ¿Primera vez?
+Empieza por **[Cómo usar los atajos](./empieza-aqui.md)**: qué es un atajo, cómo se pulsa una combinación y dónde está cada tecla.
 
 ## 🗂️ Secciones
 
+### ⊞ Windows 11
 | Página | Qué encontrarás |
 | :--- | :--- |
-| [Tecla Windows (General)](./general.md) | Todos los atajos `Win` + tecla: sistema, búsqueda, paneles, Copilot. |
-| [Ventanas, Escritorios y Barra de Tareas](./navigation.md) | Snap, escritorios virtuales, varios monitores, barra de tareas. |
-| [Explorador de Archivos](./explorer.md) | Pestañas, vistas, paneles, selección y gestión de archivos. |
-| [Texto y Cuadros de Diálogo](./text-editing.md) | Copiar, pegar, seleccionar, moverse por palabras y formularios. |
-| [Capturas y Grabación](./screenshots.md) | Recortes, grabación de pantalla, Game Bar. |
-| [Accesibilidad](./accessibility.md) | Lupa, Narrador, subtítulos en directo, teclas especiales. |
-| [Terminal, PowerShell y CMD](./terminal.md) | Windows Terminal, PSReadLine y la consola clásica. |
-| [Navegadores (Edge / Chrome / Firefox)](./browser.md) | Pestañas, historial, zoom, herramientas de desarrollo. |
-| [PowerToys](../power-user/powertoys.md) | Atajos de las utilidades de PowerToys. |
-| [Visual Studio 2022 / 2026](../development/vs2022.md) | Atajos para programar, depurar y usar Copilot. |
+| [Tecla Windows](./general.md) | Atajos `Win` + tecla: sistema, búsqueda, paneles, Copilot. |
+| [Ventanas y Escritorios](./navigation.md) | Cambiar de ventana, Snap, escritorios virtuales, barra de tareas. |
+| [Explorador de Archivos](./explorer.md) | Copiar, mover, renombrar y organizar archivos. |
+| [Texto y Diálogos](./text-editing.md) | Copiar, pegar, seleccionar y rellenar formularios en cualquier app. |
+| [Capturas y Grabación](./screenshots.md) | Capturas de pantalla y vídeos de la pantalla. |
+| [Accesibilidad](./accessibility.md) | Lupa, Narrador, subtítulos y ayudas del teclado. |
+| [Terminal](./terminal.md) | Windows Terminal, PowerShell y CMD. |
 
----
-
-## 🏆 Los 20 imprescindibles
-
-Si solo vas a aprender unos pocos, que sean estos:
-
-| Atajo | Acción |
+### 🧑‍💻 Programación
+| Página | Qué encontrarás |
 | :--- | :--- |
-| `Win` + `E` | Abrir el Explorador de archivos. |
-| `Win` + `I` | Abrir Configuración. |
-| `Win` + `L` | Bloquear el equipo. |
-| `Win` + `D` | Mostrar / ocultar el escritorio. |
-| `Win` + `V` | Historial del portapapeles. |
-| `Win` + `.` | Panel de emojis, GIF y símbolos. |
-| `Win` + `Shift` + `S` | Captura de una zona de la pantalla. |
-| `Win` + `Shift` + `R` | Grabar una zona de la pantalla en vídeo. |
-| `Win` + `Z` | Diseños de Snap (organizar ventanas). |
-| `Win` + `←` / `→` | Ajustar la ventana a media pantalla. |
-| `Win` + `Shift` + `←` / `→` | Mover la ventana al otro monitor. |
-| `Win` + `Tab` | Vista de tareas y escritorios virtuales. |
-| `Win` + `Ctrl` + `←` / `→` | Cambiar de escritorio virtual. |
-| `Win` + `1`…`9` | Abrir la app anclada en esa posición de la barra de tareas. |
-| `Win` + `X` | Menú de vínculo rápido (Terminal, Administrador de dispositivos…). |
-| `Win` + `R` | Ejecutar un comando ([ver lista](../win-plus-r/essentials.md)). |
-| `Ctrl` + `Shift` + `Esc` | Administrador de tareas. |
-| `Alt` + `Tab` | Cambiar entre ventanas abiertas. |
-| `Ctrl` + `Shift` + `C` | Copiar la ruta del archivo seleccionado en el Explorador. |
-| `Ctrl` + `Shift` + `T` | Reabrir la última pestaña cerrada (navegadores). |
+| [Visual Studio 2026](../development/visual-studio.md) | Editar, navegar, refactorizar, depurar, pruebas y Copilot. |
+| [Visual Studio Code](../development/vscode.md) | Editar, varios cursores, terminal, depurar y Copilot. |
+
+### ➕ Extras
+| Página | Qué encontrarás |
+| :--- | :--- |
+| [Navegadores](./browser.md) | Edge, Chrome y Firefox. |
+| [PowerToys](../power-user/powertoys.md) | Utilidades gratuitas de Microsoft para usuarios avanzados. |
 
 ---
+
+## 🏆 Los Imprescindibles
+
+| Atajo | Qué hace | Cuándo usarlo | Nivel |
+| :--- | :--- | :--- | :--- |
+| `Ctrl` + `C` / `Ctrl` + `V` | Copiar y pegar. | Para llevar un texto, imagen o archivo de un sitio a otro. | Básico |
+| `Ctrl` + `Z` | Deshacer. | Cada vez que te equivoques. | Básico |
+| `Alt` + `Tab` | Cambiar de ventana. | Para pasar de una app a otra sin el ratón. | Básico |
+| `Win` + `E` | Abrir el Explorador de archivos. | Para buscar o abrir archivos. | Básico |
+| `Win` + `D` | Mostrar el escritorio. | Para ver el escritorio con muchas ventanas abiertas. | Básico |
+| `Win` + `L` | Bloquear el equipo. | Siempre que te levantes del ordenador. | Básico |
+| `Win` + `V` | Historial del portapapeles. | Para pegar algo que copiaste hace rato. | Básico |
+| `Win` + `Shift` + `S` | Captura de una zona de la pantalla. | Para enviar a alguien lo que ves. | Básico |
+| `Win` + `←` / `→` | Poner la ventana en media pantalla. | Para tener dos ventanas lado a lado. | Básico |
+| `Win` + `.` | Panel de emojis y símbolos. | Para poner emojis o símbolos como €. | Básico |
+| `Ctrl` + `Shift` + `Esc` | Administrador de tareas. | Cuando un programa se queda colgado. | Básico |
+| `Win` + `Tab` | Vista de tareas y escritorios virtuales. | Para ver todas tus ventanas. | Básico |
 
 ## 🔤 Leyenda
 
 | Símbolo | Significado |
 | :--- | :--- |
-| `Win` | Tecla Windows (⊞). |
-| `ImprPant` | Tecla Imprimir Pantalla (`PrtScn` o `PrtSc` en teclados en inglés). |
+| `Win` | Tecla Windows (⊞), abajo a la izquierda. |
+| `ImprPant` | Tecla Imprimir Pantalla (`PrtScn` en teclados en inglés). |
 | `←` `→` `↑` `↓` | Teclas de flecha. |
-| `` ` `` | La tecla que está encima de `Tab` en un teclado inglés (US). En un teclado español puede ser otra tecla (`º` o `Ñ`). Si el atajo no funciona, cámbialo en la configuración de la app. |
-| `Ctrl` + `K`, `Ctrl` + `C` | Secuencia (*chord*): pulsa la primera combinación, suéltala y pulsa la segunda. |
-
-> [!TIP]
-> Si tienes **PowerToys**, mantén pulsada la tecla `Win` o pulsa `Win` + `Shift` + `?` para ver una guía interactiva con los atajos de la app que estés usando.
+| `` ` `` | Acento grave. En teclado español, a la derecha de la `P`. |
+| `Ctrl` + `K`, `Ctrl` + `C` | Dos pasos: pulsa la primera combinación, suelta y pulsa la segunda. |
 
 ---
-[⬅️ Volver al Inicio](../README.md)
+[🏠 Volver al Inicio](../README.md)

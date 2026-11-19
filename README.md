@@ -1,64 +1,43 @@
-# 💻 Windows 11: La Guía Definitiva de Atajos
+# ⌨️ Atajos de Teclado: Windows 11, Visual Studio 2026 y VS Code
 
-Tu referencia rápida para dominar Windows 11 **desde el teclado**. Está pensada para consultarla desde el móvil con la app de GitHub mientras trabajas en el PC.
+Guía gratuita en español con **todos los atajos de teclado** de Windows 11, Visual Studio 2026 y Visual Studio Code. Cada atajo explica **qué hace**, **cuándo usarlo** y su **nivel** (Básico, Intermedio o Avanzado). Está pensada para quien acaba de empezar.
 
-> **Revisado:** noviembre de 2026 · Windows 11 versión 24H2 o posterior · PowerToys y Visual Studio en sus versiones actuales.
+> **Revisado:** noviembre de 2026 · Windows 11 (24H2 o posterior) · Visual Studio 2026 · Visual Studio Code.
 
 ### 🌐 [Abrir la web interactiva](https://damdavidprieto.github.io/WindowsUltimateGuide/)
-Buscador de atajos ("¿qué quieres hacer?"), teclas dibujadas, favoritos, modo práctica y modo oscuro. Funciona en el móvil.
+Buscador ("¿qué quieres hacer?"), filtro por nivel, **teclado dibujado** que te enseña qué teclas pulsar, favoritos y modo práctica. Funciona en el ordenador y en el móvil.
 
-## ⚡ Atajos Esenciales
+## 🎓 ¿Primera vez?
+Empieza por **[Cómo usar los atajos](./hotkeys/empieza-aqui.md)**: qué es un atajo, cómo se pulsa una combinación y dónde está cada tecla.
 
-| Atajo | Acción |
-| :--- | :--- |
-| `Win` + `E` | Explorador de archivos. |
-| `Win` + `V` | Historial del portapapeles. |
-| `Win` + `Shift` + `S` | Captura de una zona de la pantalla. |
-| `Win` + `Z` | Diseños de Snap para organizar ventanas. |
-| `Win` + `Tab` | Vista de tareas y escritorios virtuales. |
-| `Win` + `.` | Panel de emojis y símbolos. |
-| `Ctrl` + `Shift` + `Esc` | Administrador de tareas. |
+## 🗂️ Índice
 
-👉 **[Ver los 20 imprescindibles y la leyenda de teclas](./hotkeys/README.md)**
+### ⊞ Windows 11
+- [Tecla Windows](./hotkeys/general.md): sistema, paneles, búsqueda, escritura y Copilot.
+- [Ventanas y Escritorios](./hotkeys/navigation.md): cambiar de ventana, Snap, escritorios virtuales y barra de tareas.
+- [Explorador de Archivos](./hotkeys/explorer.md): copiar, mover, renombrar y organizar archivos.
+- [Texto y Diálogos](./hotkeys/text-editing.md): copiar, pegar y seleccionar en cualquier programa.
+- [Capturas y Grabación](./hotkeys/screenshots.md): capturas de pantalla y vídeos de la pantalla.
+- [Accesibilidad](./hotkeys/accessibility.md): Lupa, Narrador, subtítulos y ayudas del teclado.
+- [Terminal](./hotkeys/terminal.md): Windows Terminal, PowerShell y CMD.
 
-## 🗂️ Índice de Contenidos
+### 🧑‍💻 Programación
+- [Visual Studio 2026](./development/visual-studio.md): editar, navegar, refactorizar, depurar, pruebas y Copilot.
+- [Visual Studio Code](./development/vscode.md): editar, varios cursores, terminal, depurar y Copilot.
 
-### ⌨️ [Atajos de Teclado](./hotkeys/README.md)
-- [Tecla Windows (General)](./hotkeys/general.md): sistema, paneles, búsqueda, escritura y Copilot.
-- [Ventanas, Escritorios y Barra de Tareas](./hotkeys/navigation.md): Snap, escritorios virtuales y varios monitores.
-- [Explorador de Archivos](./hotkeys/explorer.md): pestañas, vistas, paneles y selección.
-- [Texto y Cuadros de Diálogo](./hotkeys/text-editing.md): copiar, pegar, seleccionar y moverse por el texto.
-- [Capturas y Grabación](./hotkeys/screenshots.md): Recortes, grabación de pantalla y Game Bar.
-- [Accesibilidad](./hotkeys/accessibility.md): Lupa, Narrador, subtítulos en directo y teclas especiales.
-- [Terminal, PowerShell y CMD](./hotkeys/terminal.md): Windows Terminal, PSReadLine y la consola clásica.
-- [Navegadores](./hotkeys/browser.md): Edge, Chrome y Firefox.
-- [PowerToys](./power-user/powertoys.md): Paleta de comandos, Pegado avanzado, FancyZones y más.
-- [Visual Studio 2022 / 2026](./development/vs2022.md): edición, depuración, multicursor y Copilot.
-
-### 🏃 Win + R (Comandos Ejecutar)
-- [Apps Esenciales](./win-plus-r/essentials.md): calc, notepad, cmd, etc.
-- [Panel de Control (.cpl)](./win-plus-r/control-panel.md): accesos directos a los ajustes clásicos.
-- [Administración (.msc)](./win-plus-r/system-admin.md): consolas avanzadas de gestión.
-
-### ⚙️ Sistema y Avanzado
-- [Variables de Entorno](./system/env-vars.md): Path, UserProfile y más.
-- [Herramientas Nativas](./system/built-in-tools.md): utilidades potentes y poco conocidas.
-- [Comandos de Terminal](./system/cli-tips.md): comandos rápidos para PowerShell y CMD.
-- [WSL (Linux en Windows)](./power-user/wsl.md): flujo de trabajo y comandos básicos.
-- [God Mode](./power-user/god-mode.md): activa el panel de control maestro.
-- [Trucos del Registro](./power-user/registry-hacks.md): ajustes seguros de interfaz y rendimiento.
+### ➕ Extras
+- [Navegadores](./hotkeys/browser.md) · [PowerToys](./power-user/powertoys.md)
+- Win + R: [Apps](./win-plus-r/essentials.md) · [Panel de Control](./win-plus-r/control-panel.md) · [Administración](./win-plus-r/system-admin.md)
+- Sistema: [Variables de entorno](./system/env-vars.md) · [Herramientas nativas](./system/built-in-tools.md) · [Comandos](./system/cli-tips.md) · [WSL](./power-user/wsl.md) · [God Mode](./power-user/god-mode.md) · [Registro](./power-user/registry-hacks.md)
 
 ---
 
-## 📱 Tip para Móviles
-En la app de GitHub o en el navegador del móvil, abre una página y usa **Buscar en la página** para encontrar un atajo al instante.
-
 ## 🌐 La web (GitHub Pages)
-La web está en la carpeta [`site/`](./site/) y lee directamente estos archivos Markdown, así que **solo hay que editar los `.md`**: al subir los cambios a `main` se publica sola con GitHub Actions.
+La web está en [`site/`](./site/) y lee directamente estos archivos Markdown: **solo hay que editar los `.md`**. Cada cambio que llega a `main` se publica solo con GitHub Actions.
 
 - **Ver en local:** `bash scripts/build-site.sh && python3 -m http.server -d _site 8000` y abre `http://localhost:8000`.
 - **Añadir una página:** crea el `.md` y añádelo a la lista `PAGES` de [`site/app.js`](./site/app.js).
-- Las tablas cuya primera columna se llama **Atajo** se muestran como teclas; si se llama **Comando** o **Variable**, como código con botón de copiar.
+- **Formato de las tablas:** `| Atajo | Qué hace | Cuándo usarlo | Nivel |`. El nivel es `Básico`, `Intermedio` o `Avanzado`. Si la primera columna se llama **Comando** o **Variable**, se muestra como código con botón de copiar.
 
 ## 🛠️ Contribuciones
-¡Añade tus trucos favoritos con un pull request! Si propones un atajo, indica la versión de Windows o de la app en la que lo has comprobado.
+¡Añade o corrige atajos con un pull request! Indica la versión de Windows o de la app en la que lo has comprobado.
