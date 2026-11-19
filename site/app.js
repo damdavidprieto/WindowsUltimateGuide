@@ -203,20 +203,29 @@
     return [...l].length > 1 ? l.normalize('NFD').replace(/[̀-ͯ]/g, '') : l;
   };
   const KEY_ALIASES = { 'tecla menu': 'menu', 'bloq mayus': 'bloq mayus', 'pausa': 'pausa' };
+  // Teclas de los atajos (pensados para teclado en inglés) que en el teclado
+  // español están en otro sitio. null = depende de la app: no se resalta.
   const SYMBOLS = {
-    ';': [',', '«;» se escribe con Shift + «,»'], ':': ['.', '«:» se escribe con Shift + «.»'],
-    '/': ['7', '«/» se escribe con Shift + 7'], '?': ["'", '«?» se escribe con Shift + «\'»'],
-    '=': ['0', '«=» se escribe con Shift + 0'], '_': ['-', '«_» se escribe con Shift + «-»'],
-    '*': ['+', '«*» se escribe con Shift + «+»'], '\\': ['º', '«\\» se escribe con AltGr + º'],
-    '[': ['`', '«[» se escribe con AltGr + «`»'], ']': ['+', '«]» se escribe con AltGr + «+»'],
+    '`': ['ñ', 'la tecla «`» de los atajos suele ser la Ñ (por ejemplo, Ctrl + Ñ abre la terminal de VS Code)'],
+    '/': [null, 'la tecla «/» está en otro sitio: según la app puede ser Shift + 7 o la tecla Ç'],
+    '\\': [null, 'la tecla «\\» está en otro sitio (se escribe con AltGr + º)'],
+    '[': [null, 'la tecla «[» está en otro sitio (se escribe con AltGr + «`»)'],
+    ']': [null, 'la tecla «]» está en otro sitio (se escribe con AltGr + «+»)'],
+    ';': [null, 'la tecla «;» está en otro sitio (se escribe con Shift + «,»)'],
+    '=': [null, 'la tecla «=» está en otro sitio (se escribe con Shift + 0)'],
+    '?': [null, 'la tecla «?» está en otro sitio (se escribe con Shift + «\'»)'],
   };
 
   // Convierte el Markdown de una celda de atajo en pasos y alternativas.
   function parseCombo(md) {
     const segs = [];
-    const re = /`([^`]+)`|([^`]+)/g;
+    // Admite `tecla` y ``tecla con acento grave`` (como `` ` ``).
+    const re = /``\s?(.+?)\s?``|`([^`]+)`|([^`]+)/g;
     let m;
-    while ((m = re.exec(md))) segs.push(m[1] != null ? { k: m[1] } : { t: m[2] });
+    while ((m = re.exec(md))) {
+      const code = m[1] != null ? m[1] : m[2];
+      segs.push(code != null ? { k: code } : { t: m[3] });
+    }
     if (!segs.some((s) => s.k)) return null;
     let alts = [{ keys: [] }];
     const steps = [alts];
@@ -255,14 +264,14 @@
 
   function idsFor(k) {
     const notes = [];
+    let known = false;
     const resolve = (name, right) => {
+      const sym = SYMBOLS[name.trim()];
+      if (sym) { notes.push(sym[1]); known = true; return sym[0]; }
       let id = keyId(name);
       id = KEY_ALIASES[id] || id;
       if (right && KB_IDS.has(id + '-r')) id += '-r';
-      if (KB_IDS.has(id)) return id;
-      const sym = SYMBOLS[name.trim()];
-      if (sym) { notes.push(sym[1]); return sym[0]; }
-      return null;
+      return KB_IDS.has(id) ? id : null;
     };
     if (k.range) {
       const a = k.range[0].trim(), b = k.range[1].trim();
@@ -271,7 +280,7 @@
       return { ids: out, notes };
     }
     const id = resolve(k.name, k.right);
-    return { ids: id ? [id] : [], notes, unknown: id ? null : k.name };
+    return { ids: id ? [id] : [], notes, unknown: id || known ? null : k.name };
   }
 
   const keyLabelHTML = (k) => (k.range ? `${kbd(esc(k.range[0]))}…${kbd(esc(k.range[1]))}` : kbd(esc(k.name)));
@@ -901,7 +910,7 @@
       ...(steps.length > 1 ? ['Es un atajo en dos pasos: haz el primero, suelta, y luego el segundo.'] : []),
       ...(mouse ? [`Además se usa el ratón: <b>${esc(mouse)}</b>.`] : []),
       ...extra.filter((x) => !/clic|arrastr|rueda/i.test(x)).map((x) => `Detalle: <b>${esc(x)}</b>.`),
-      ...board.notes.map((n) => `En un teclado español, ${esc(n)}. La tecla real puede variar: compruébalo en el menú de la app.`),
+      ...board.notes.map((n) => `Con teclado español, ${esc(n)}. La app te muestra la combinación exacta junto a cada opción de sus menús.`),
       ...(board.unknown.length ? [`Algunas teclas (${board.unknown.map((u) => kbd(esc(u))).join(' ')}) no aparecen en el dibujo, por ejemplo las del teclado numérico.`] : []),
     ];
     $('#kb-body').innerHTML = `

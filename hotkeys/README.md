@@ -57,7 +57,7 @@ Empieza por **[Cómo usar los atajos](./empieza-aqui.md)**: qué es un atajo, c�
 | `Win` | Tecla Windows (⊞), abajo a la izquierda. |
 | `ImprPant` | Tecla Imprimir Pantalla (`PrtScn` en teclados en inglés). |
 | `←` `→` `↑` `↓` | Teclas de flecha. |
-| `` ` `` | Acento grave. En teclado español, a la derecha de la `P`. |
+| `` ` `` | Acento grave (la tecla encima de `Tab` en teclados en inglés). En los atajos, con teclado español suele ser la `Ñ`. |
 | `Ctrl` + `K`, `Ctrl` + `C` | Dos pasos: pulsa la primera combinación, suelta y pulsa la segunda. |
 
 ---

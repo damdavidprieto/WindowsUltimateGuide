@@ -49,8 +49,8 @@ En muchos portátiles, las teclas `F1`…`F12` controlan el brillo o el volumen.
 ## 🇪🇸 Teclado en español
 Esta guía usa los nombres de un teclado español: `Supr`, `Inicio`, `Fin`, `RePág`, `AvPág`, `ImprPant`. Algunos atajos usan símbolos que en el teclado español están en otro sitio:
 
-- `` ` `` (acento grave): en teclado español es la tecla que hay a la derecha de la `P`. En inglés está encima de `Tab`.
-- `/`, `[`, `]` o `\`: en el teclado español se escriben con otras combinaciones, así que la tecla real del atajo puede cambiar. **Visual Studio y VS Code te muestran la combinación correcta para tu teclado** junto a cada opción de los menús (por ejemplo, *Editar > Alternar comentario de línea*).
+- `` ` `` (acento grave): en los teclados en inglés está encima de `Tab`. En los atajos, con teclado español **suele ser la `Ñ`**: por ejemplo, la terminal de VS Code se abre con `Ctrl` + `Ñ`.
+- `/`, `[`, `]` o `\`: en el teclado español están en otro sitio, así que la tecla real del atajo cambia. **Visual Studio y VS Code te muestran la combinación correcta para tu teclado** junto a cada opción de los menús (por ejemplo, *Editar > Alternar comentario de línea*). Para comentar código, `Ctrl` + `K`, `Ctrl` + `C` funciona con cualquier teclado.
 - Si un atajo con símbolo no funciona, búscalo en la configuración de la app (en VS Code: `Ctrl` + `K`, `Ctrl` + `S`).
 
 ## 🟢🟡🔴 Niveles

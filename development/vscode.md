@@ -2,6 +2,9 @@
 
 Atajos predeterminados de **Visual Studio Code en Windows**, basados en la [hoja oficial de atajos](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf). VS Code es un editor de código gratuito, ligero y con miles de extensiones.
 
+> [!IMPORTANT]
+> **Con teclado español** algunos atajos con símbolos cambian de tecla. VS Code siempre muestra la combinación correcta para tu teclado en los menús y en la lista de atajos (`Ctrl` + `K`, `Ctrl` + `S`). Los dos más habituales: la terminal (`Ctrl` + `` ` ``) se abre con `Ctrl` + `Ñ`, y para comentar líneas, si `Ctrl` + `/` no te funciona, usa `Ctrl` + `K`, `Ctrl` + `C`.
+
 > [!TIP]
 > **El único atajo que necesitas recordar:** `Ctrl` + `Shift` + `P` abre la **paleta de comandos**. Escribe lo que quieres hacer ("formatear", "terminal", "tema"…) y VS Code te muestra la opción **y su atajo**. Para ver o cambiar todos los atajos: `Ctrl` + `K`, `Ctrl` + `S`.
 
@@ -12,9 +15,9 @@ Atajos predeterminados de **Visual Studio Code en Windows**, basados en la [hoja
 | `Ctrl` + `P` | Abre un archivo por su nombre (Quick Open). | Escribe parte del nombre y pulsa `Enter`: mucho más rápido que buscarlo en las carpetas. | Básico |
 | `Ctrl` + `S` | Guarda el archivo. | Después de cada cambio. | Básico |
 | `Ctrl` + `Z` / `Ctrl` + `Y` | Deshace / rehace. | Cuando te equivocas al editar. | Básico |
-| `Ctrl` + `/` | Comenta o descomenta la línea. | Para desactivar una línea de código temporalmente. | Básico |
+| `Ctrl` + `/` | Comenta o descomenta la línea. | Para desactivar una línea de código temporalmente. Si no te funciona con el teclado español, usa `Ctrl` + `K`, `Ctrl` + `C`. | Básico |
 | `Shift` + `Alt` + `F` | Da formato al documento. | Para ordenar sangrías y espacios automáticamente. | Básico |
-| `Ctrl` + `` ` `` | Muestra u oculta la terminal. | Para ejecutar comandos (`npm`, `git`, `python`…) sin salir del editor. | Básico |
+| `Ctrl` + `` ` `` | Muestra u oculta la terminal. | Para ejecutar comandos (`npm`, `git`, `python`…) sin salir del editor. Con teclado español: `Ctrl` + `Ñ`. | Básico |
 | `Ctrl` + `B` | Muestra u oculta la barra lateral. | Para ganar espacio para el código. | Básico |
 | `Ctrl` + `,` | Abre la configuración. | Para cambiar el tamaño de letra, el guardado automático, etc. | Básico |
 | `Ctrl` + `K`, `Ctrl` + `T` | Cambia el tema de colores. | Para elegir un tema que te resulte cómodo. | Básico |
@@ -118,6 +121,7 @@ Atajos predeterminados de **Visual Studio Code en Windows**, basados en la [hoja
 | `Ctrl` + `K`, `F12` | Abre la definición en un panel al lado. | Para ver la definición y tu código a la vez. | Avanzado |
 | `Shift` + `F12` | Muestra todas las referencias. | Para ver en qué sitios se usa una función o variable. | Intermedio |
 | `F2` | Cambia el nombre en todo el proyecto. | Para renombrar una variable o función sin romper nada. | Básico |
+| `Shift` + `Alt` + `O` | Organiza las importaciones. | Para ordenar y quitar los `import` o `using` que no se usan. | Intermedio |
 | `Ctrl` + `K`, `Ctrl` + `F` | Da formato a la selección. | Para ordenar solo un trozo de código. | Intermedio |
 
 ## 📂 Plegar Código
@@ -157,8 +161,8 @@ Atajos predeterminados de **Visual Studio Code en Windows**, basados en la [hoja
 ## 🖥️ Terminal Integrada
 | Atajo | Qué hace | Cuándo usarlo | Nivel |
 | :--- | :--- | :--- | :--- |
-| `Ctrl` + `` ` `` | Muestra u oculta la terminal. | Para ejecutar comandos sin salir del editor. | Básico |
-| `Ctrl` + `Shift` + `` ` `` | Crea una terminal nueva. | Para tener varias terminales (por ejemplo, una para el servidor y otra para git). | Intermedio |
+| `Ctrl` + `` ` `` | Muestra u oculta la terminal. | Para ejecutar comandos sin salir del editor. Con teclado español: `Ctrl` + `Ñ`. | Básico |
+| `Ctrl` + `Shift` + `` ` `` | Crea una terminal nueva. | Para tener varias terminales (por ejemplo, una para el servidor y otra para git). Con teclado español: `Ctrl` + `Shift` + `Ñ`. | Intermedio |
 | `Ctrl` + `Shift` + `5` | Divide la terminal. | Para ver dos terminales lado a lado. | Avanzado |
 | `Ctrl` + `C` | Copia la selección (o detiene el comando si no hay selección). | Para copiar un resultado o parar un programa. | Básico |
 | `Ctrl` + `V` | Pega en la terminal. | Para pegar un comando. | Básico |
@@ -188,6 +192,9 @@ Atajos predeterminados de **Visual Studio Code en Windows**, basados en la [hoja
 | `Alt` + `]` / `Alt` + `[` | Muestra la sugerencia siguiente / anterior. | Para ver otras propuestas. | Intermedio |
 | `Ctrl` + `I` | Abre el chat de Copilot dentro del editor. | Para pedir que escriba, explique o cambie el código seleccionado. | Intermedio |
 | `Ctrl` + `Alt` + `I` | Abre la vista de Chat. | Para conversar con Copilot sobre tu proyecto. | Intermedio |
+| `Ctrl` + `N` (en el Chat) | Empieza una conversación nueva. | Cuando cambias de tema y quieres que Copilot empiece de cero. | Intermedio |
+| `Ctrl` + `Shift` + `Alt` + `L` | Abre el chat rápido. | Para una pregunta corta sin abrir el panel de Chat. | Avanzado |
+| `Ctrl` + `I` (en la terminal) | Abre el chat de Copilot en la terminal. | Para pedirle a Copilot el comando que necesitas. | Intermedio |
 
 ---
 

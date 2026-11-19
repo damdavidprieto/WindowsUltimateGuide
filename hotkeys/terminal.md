@@ -40,7 +40,7 @@ La terminal es la ventana donde se escriben comandos. Windows 11 trae **Windows 
 | `Ctrl` + `Shift` + `RePág` / `AvPág` | Desplaza una página. | Para salidas largas. | Avanzado |
 | `Ctrl` + `Shift` + `Inicio` / `Fin` | Va al principio o al final de la salida. | Para volver arriba del todo o al final. | Avanzado |
 | `F11` o `Alt` + `Enter` | Pantalla completa. | Para concentrarte en la terminal. | Intermedio |
-| `Win` + `` ` `` | Abre la terminal desplegable (modo Quake). | Para tener una terminal siempre a mano que baja desde arriba. | Avanzado |
+| `Win` + `` ` `` | Abre la terminal desplegable (modo Quake). | Para tener una terminal siempre a mano que baja desde arriba. Con teclado español, prueba `Win` + `Ñ`. | Avanzado |
 
 ## ⚡ PowerShell: Escribir Comandos
 | Atajo | Qué hace | Cuándo usarlo | Nivel |

@@ -63,7 +63,7 @@ Atajos del perfil de teclado predeterminado de **Visual Studio 2026** (el de "Co
 ## ✏️ Editar Código
 | Atajo | Qué hace | Cuándo usarlo | Nivel |
 | :--- | :--- | :--- | :--- |
-| `Ctrl` + `/` | Comenta o descomenta la línea. | Para desactivar una línea de código temporalmente. | Básico |
+| `Ctrl` + `/` | Comenta o descomenta la línea. | Para desactivar una línea de código temporalmente. Si no te funciona con el teclado español, usa `Ctrl` + `K`, `Ctrl` + `C`. | Básico |
 | `Ctrl` + `K`, `Ctrl` + `C` | Comenta la selección. | Para comentar varias líneas a la vez. | Básico |
 | `Ctrl` + `K`, `Ctrl` + `U` | Quita el comentario de la selección. | Para volver a activar el código comentado. | Básico |
 | `Ctrl` + `K`, `Ctrl` + `D` | Da formato a todo el documento. | Para ordenar sangrías y espacios automáticamente. Úsalo a menudo. | Básico |
@@ -169,7 +169,7 @@ Atajos del perfil de teclado predeterminado de **Visual Studio 2026** (el de "Co
 | `Ctrl` + `Alt` + `L` | Abre el Explorador de soluciones. | Para ver los archivos de tu proyecto. | Básico |
 | `Ctrl` + `;` | Busca en el Explorador de soluciones. | Para encontrar un archivo del proyecto por su nombre. | Intermedio |
 | `Ctrl` + `[`, `S` | Sincroniza el Explorador con el archivo abierto. | Para ver en qué carpeta está el archivo que editas. | Intermedio |
-| `Ctrl` + `` ` `` | Abre el Terminal integrado. | Para usar comandos (`git`, `dotnet`…) sin salir de VS. | Intermedio |
+| `Ctrl` + `` ` `` | Abre el Terminal integrado. | Para usar comandos (`git`, `dotnet`…) sin salir de VS. Con teclado español suele ser `Ctrl` + `Ñ`; si no, usa *Ver > Terminal*. | Intermedio |
 | `Ctrl` + `\`, `Ctrl` + `E` | Abre la Lista de errores. | Para ver todos los errores y avisos de compilación. | Básico |
 | `Ctrl` + `Alt` + `O` | Abre la ventana de Salida. | Para ver mensajes de compilación o de tu programa. | Intermedio |
 | `F4` | Abre la ventana Propiedades. | Para cambiar propiedades de un control o archivo. | Intermedio |
@@ -207,11 +207,13 @@ Atajos del perfil de teclado predeterminado de **Visual Studio 2026** (el de "Co
 | `Tab` | Acepta la sugerencia de Copilot (texto en gris). | Cuando Copilot te propone código que te sirve. | Básico |
 | `Esc` | Descarta la sugerencia. | Cuando la sugerencia no es lo que quieres. | Básico |
 | `Ctrl` + `→` | Acepta solo la siguiente palabra. | Para aprovechar solo el principio de una sugerencia. | Intermedio |
-| `Alt` + `.` / `Alt` + `,` | Muestra la sugerencia siguiente / anterior. | Para ver otras propuestas de Copilot. | Intermedio |
-| `Alt` + `/` | Abre el chat de Copilot dentro del editor. | Para pedirle a Copilot que explique o cambie el código seleccionado. | Intermedio |
+| `Ctrl` + `↓` | Acepta solo la siguiente línea. | Para aceptar una sugerencia larga poco a poco. | Intermedio |
+| `Alt` + `.` / `Alt` + `,` | Pide una sugerencia o muestra la siguiente / anterior. | Para ver otras propuestas, o para pedir una si desactivaste las automáticas. | Intermedio |
 
 > [!NOTE]
-> Los atajos de Copilot se pueden personalizar. Si alguno no te funciona, busca "Copilot" en *Herramientas > Opciones > Entorno > Teclado*.
+> **Chat de Copilot:** ábrelo desde *Ver > GitHub Copilot Chat*, o haz clic derecho en el código y elige **Chat** para preguntar sin salir del editor. En el chat en línea, `Tab` aplica los cambios y `Esc` los descarta.
+>
+> Los atajos para aceptar sugerencias se pueden cambiar en *Herramientas > Opciones > Entorno > Teclado* (busca `Edit.AcceptSuggestion`).
 
 ---
 
