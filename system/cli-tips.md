@@ -13,10 +13,7 @@ Tips rápidos para la consola de comandos.
 | `systeminfo` | Obtiene un volcado masivo de detalles de hardware y SO. |
 
 ## Atajos de Terminal
-- `Ctrl` + `C`: Interrumpir comando actual.
-- `Tab`: Autocompletar nombres de archivos/carpetas.
-- `F7`: Ver historial de comandos (CMD).
-- `Flecha Arriba/Abajo`: Ciclar entre comandos anteriores.
+Los atajos de Windows Terminal, PowerShell y CMD están en su propia página: **[Terminal, PowerShell y CMD](../hotkeys/terminal.md)**.
 
 ---
 [⬅️ Volver al Inicio](../README.md)

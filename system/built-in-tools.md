@@ -11,17 +11,22 @@ Programa un reinicio para comprobar si tu RAM tiene errores físicos.
 ## 3. Monitor de Confiabilidad (`perfmon /rel`)
 Muestra una línea de tiempo de cada fallo, actualización y error que ha ocurrido en tu PC.
 
-## 4. Informe de Energía (`powercfg /energy`)
-Ejecuta esto en CMD como Admin para obtener un informe HTML detallado sobre la salud de tu batería.
+## 4. Informes de Energía y Batería (`powercfg`)
+- `powercfg /batteryreport`: genera `battery-report.html` con la **salud de la batería**, su capacidad real frente a la original y el historial de uso.
+- `powercfg /energy`: ejecútalo como administrador para diagnosticar problemas de **eficiencia energética** (drivers o procesos que impiden la suspensión, etc.).
 
 ## 5. Sensor de Almacenamiento
 Ve a `Configuración > Sistema > Almacenamiento`. Limpia automáticamente archivos temporales y la papelera.
 
-## 6. Grabación de acciones de usuario (`psr`)
-Graba tu pantalla y clics en un documento con descripciones—perfecto para tutoriales o reportar errores.
+## 6. Grabar la pantalla para tutoriales o informes de errores
+La antigua *Grabación de acciones de usuario* (`psr`) está **obsoleta** y Microsoft la está retirando. En su lugar:
+- `Win` + `Shift` + `R`: graba un vídeo de una zona de la pantalla con Recortes.
+- `Win` + `Alt` + `R`: graba la ventana activa con la Xbox Game Bar.
+
+Más atajos en [Capturas y Grabación](../hotkeys/screenshots.md).
 
 ## 7. Espacio aislado de Windows (Sandbox)
-(Solo Win 11 Pro) Un entorno virtual desechable para probar archivos sospechosos sin infectar tu sistema. Actívalo en "Activar o desactivar las características de Windows".
+(Windows 11 Pro, Enterprise o Education; no está en Home). Un entorno virtual desechable para probar archivos sospechosos sin infectar tu sistema. Actívalo en "Activar o desactivar las características de Windows".
 
 ---
 [⬅️ Volver al Inicio](../README.md)
